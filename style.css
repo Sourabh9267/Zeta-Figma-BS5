@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root{
+    --main-bg:#151719;
+    --primary-purple:#5D5DFF;
+    --grey:#33363A;
+    --t-grey:#9BA9B4;
+    --green-bg:#C6F6D5;
+    --green-primary:#36A269;
+    --t-white:#D9E3EA;
+    --primary-purple-hover:#8686ff;
+}
+
+body{
+    background-color: var(--main-bg) !important;
+}
+
+*{
+    font-family: "inter";
+}
+.wrapper{
+    background: url(assets/img/Shape1.png) top right no-repeat;
+    /* background: url(assets/img/shape2.png) no-repeat ; */
+}
+
+.hero-section{
+    background:url(assets/img/shape2.png) no-repeat left bottom;
+    padding-bottom: 50px;
+}
+
+.main-wrapper{
+    margin-top: 100px;
+}
+
+.btn-s,.btn-p,.btn-p{
+    font: 500 16px "inter";
+}
+
+.btn-s{
+
+    color: var(--t-white);
+    background-color: var(--grey);
+}
+
+.btn-p{
+    color: var(--t-white);
+    background-color: var(--primary-purple);
+}
+
+.btn-t{
+    color: var(--t-grey);
+}
+.btn-p:hover{
+    color: inherit;
+    background-color: var(--primary-purple-hover);
+}
+
+.btn-s:hover{
+    background-color: var(--t-grey);
+    color: inherit;
+}
+
+.btn:active{
+    border-color: transparent !important;
+}
+
+
+
+
+h2{
+    font: 800 40px "inter";
+    color: var(--t-white);
+    margin-bottom: 17px;
+}
+p{
+    font: 400 20px "inter";
+    color: var(--t-grey);
+    margin-bottom: 80px;
+}
+
+
+section{
+    margin-bottom: 64px;
+}
+/* Hero Section */
+
+.hero-section h1{
+    font: 800 52px "inter";
+    color: var(--t-white);
+    margin-bottom: 16px;
+}
+
+.hero-section p{
+    font: 400 20px "inter";
+    color: var(--t-grey);
+    margin-bottom: 32px;
+}
+
+.hero-section .btn-grp{
+    margin-bottom: 64px;
+}
+
+
+/*features section*/
+
+
+.features-section .custom-card img{
+    width: 64px;
+    margin-bottom: 16px;
+}
+
+.features-section .custom-card h3{
+    font: 24px 700 "inter";
+    margin-bottom: 16px;
+}
+
+.features-section .custom-card p{
+    font: 18px 400 "inter";
+}
+
+.features-section .gallery{
+    padding-bottom: 80px;
+    border-bottom: 2px solid var(--grey);
+}
+
+
+/* Product Section */
+
+.product-section .btn-grp{
+width: fit-content;
+margin-bottom: 16px;
+
+}
+.product-section .btn-grp button{
+    background-color: var(--green-bg);
+    color: var(--green-primary);
+    width: fit-content;
+}
