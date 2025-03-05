@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
@@ -11,6 +11,7 @@
     --green-primary:#36A269;
     --t-white:#D9E3EA;
     --primary-purple-hover:#8686ff;
+    --testemonial-card-bg:#25282C;
 }
 
 body{
@@ -66,6 +67,11 @@ body{
     border-color: transparent !important;
 }
 
+
+.highlight-txt{
+    color: var(--primary-purple);
+    font-family: "Architects Daughter";
+}
 
 
 
@@ -138,3 +144,151 @@ margin-bottom: 16px;
     color: var(--green-primary);
     width: fit-content;
 }
+
+.product-section .content h3{
+    font: 700 32px "inter";
+    color: var(--t-white);
+    margin-bottom: 9px;
+}
+
+.product-section .content p{
+    font: 400 20px "inter";
+    color: var(--t-grey);
+    margin-bottom: 16px;
+}
+
+
+.product-section .content .check-grp p{
+    font: 400 18px "inter";
+    margin-bottom: 8px;
+    margin-left: 12px;
+}
+
+.product{
+    margin-bottom: 80px;
+}
+
+.product-gallery{
+    padding-bottom: 80px;
+    border-bottom: 2px solid var(--grey) ;
+}
+
+
+
+/* Testmonial Section */
+
+
+.testmonial-section .card-custom-testmonial 
+{
+
+    color: var(--t-grey);
+    background-color: var(--testemonial-card-bg);
+
+}
+
+
+.testmonial-section .content-testmonial .card-custom-testmonial img{
+  margin-bottom: 16px;
+}
+
+.testmonial-section .content-testmonial .card-custom-testmonial p{
+    margin-bottom: 24px;
+    line-height: 27px;
+}
+
+
+.testmonial-section .content-testmonial .card-custom-testmonial h6{
+    color: var(--t-white);
+    border-top: 2px solid var(--grey);
+    padding-top: 20px;
+    
+}
+
+.testmonial-section .content-testmonial .card-custom-testmonial h6 span{
+    color: var(--grey);
+}
+.testmonial-section .content-testmonial .card-custom-testmonial h6 a{
+    color: var(--primary-purple);
+    text-decoration: none;
+}
+
+
+
+
+/* Footer*/
+
+.ftr-top{
+    padding-block: 80px;
+    padding-inline: 30px;
+    background: url(assets/img/Fill\ 1\ footer.png) no-repeat top right;
+    background-color: var(--primary-purple);
+    margin-bottom: 64px;
+}
+
+.ftr-top .request-text p{
+    margin-bottom: 0;
+}
+
+.ftr-top .subscribe-form input{
+    background-color: #4B4ACF;
+    outline: none !important;
+    border: none !important;
+    color: var(--t-white);
+}
+
+.ftr-top .subscribe-form input::placeholder{
+    color: var(--t-grey);
+}
+
+.ftr-top .subscribe-form button{
+    background-color: var(--t-white);
+    color: var(--primary-purple);
+    outline: none !important;
+    border: none !important;
+    margin-left: 10px;
+}
+
+.ftr-bottom .content img{
+margin-bottom: 14px;
+}
+
+.ftr-bottom .content p{
+margin-bottom: 0;
+font: 400 16px "inter";
+}
+
+.ftr-bottom .links-wrapper ul{
+    list-style: none;
+    padding: 0;
+}
+
+.ftr-bottom .links-wrapper h5{
+    color:var(--t-white);
+}
+
+.ftr-bottom .links-wrapper .links{
+    text-decoration: none;
+    color: var(--t-grey);
+}
+
+.ftr-bottom{
+    margin-bottom: 40px;
+}
+
+.ftr-bottom-content{
+    margin-bottom: 120px;
+}
+
+.ftr-bottom-content h6{
+    color: var(--t-grey);
+    width: fit-content;
+}
+
+.social-icons i{
+    border-radius:50% ;
+    background-color: var(--grey);
+    color: var(--primary-purple);
+    font-size: 16px;
+    padding: 10px;
+}
+
