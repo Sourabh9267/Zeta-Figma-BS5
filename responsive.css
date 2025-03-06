@@ -1,0 +1,102 @@
+@media screen and (max-width:767px) {
+    
+  
+    .main-wrapper{
+        margin-top: 50px;
+    }
+    .hero-section > p{
+        width: 100% !important;
+    }
+    .hero-section .btn-grp button{
+        margin-bottom: 10px;
+        margin-inline: 0 !important;
+        width: 70%;
+    }
+
+
+
+
+    .features-section > h2 {
+        text-align: left !important;
+    }
+
+    .features-section > p {
+        width: 100% ;
+    }
+
+    .product-section > h2 {
+        text-align: left !important;
+      
+    }
+
+    .product-section > p {
+        width: 100% ;
+        text-align: left !important;
+        margin-bottom: 20px !important;
+    }
+
+    .product-section .product-gallery{
+        padding-bottom: 10px !important;
+    }
+
+    .testmonial-section > h2{
+        text-align: left !important;
+    }
+    .testmonial-section > p{
+        text-align: left !important;
+        width: 100% !important;
+        margin-bottom: 40px !important;
+    }
+
+    .testmonial-section .content-testmonial{
+        padding: 0px !important;
+        padding-right: 0 !important;
+    }
+
+    .testmonial-section .content-testmonial .card-custom-testmonial{
+        width: 100% ;
+    }
+
+    .ftr-top .request-text p{
+        margin-bottom: 30px;
+    }
+
+
+    .ftr-top .subscribe-form{
+        width: 100% !important;
+
+    }
+
+    .ftr-top .subscribe-form form{
+        flex-wrap: wrap !important;
+        row-gap: 10px;
+    }
+
+    .ftr-top .subscribe-form input{
+        width: 100% !important;
+    }
+    .ftr-top .subscribe-form button{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+
+    .ftr-bottom .content{
+        margin-bottom: 40px;
+    }
+
+    .ftr-bottom .content p{
+        width: 100% !important;
+    }
+
+    .ftr-bottom{
+        margin-bottom: 10px !important;
+    }
+    .ftr-bottom-content {
+        justify-content: center !important;
+        row-gap: 20px;
+        flex-wrap: wrap-reverse !important;
+        margin-bottom: 20px !important;
+    }
+
+}

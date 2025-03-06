@@ -39,6 +39,10 @@ body{
     font: 500 16px "inter";
 }
 
+.btn{
+    border-radius: 2px !important;
+}
+
 .btn-s{
 
     color: var(--t-white);
@@ -90,6 +94,32 @@ p{
 section{
     margin-bottom: 64px;
 }
+
+.navbar-toggler-icon{
+    background-image: none !important;
+}
+
+.check-grp p::before {
+    content: "\f00c"; /* Unicode for checkmark (check-circle) */
+    font-family: "Font Awesome 6 Free"; /* Or "Font Awesome 6 Pro" if you're using Pro */
+    font-weight: 900; /* Required for solid icons in Font Awesome 6 */
+    color: var(--green-primary);
+    margin-right: 5px;
+}
+
+/*
+
+Navbar
+
+*/
+
+
+.header-wrapper .collapse .navbar-nav{
+    gap: 20px;
+}
+
+
+
 /* Hero Section */
 
 .hero-section h1{
@@ -102,6 +132,7 @@ section{
     font: 400 20px "inter";
     color: var(--t-grey);
     margin-bottom: 32px;
+    width: 50%;
 }
 
 .hero-section .btn-grp{
@@ -111,10 +142,15 @@ section{
 
 /*features section*/
 
+.features-section > p{
+    width: 60%;
+}
+
 
 .features-section .custom-card img{
     width: 64px;
     margin-bottom: 16px;
+    margin-top: 16px;
 }
 
 .features-section .custom-card h3{
@@ -131,8 +167,21 @@ section{
     border-bottom: 2px solid var(--grey);
 }
 
+.features-section .custom-card{
+    border-radius: 25px;
+
+}
+
+.features-section .custom-card:hover{
+    background-color: var(--grey);
+}
 
 /* Product Section */
+
+.product-section > p{
+    width: 60%;
+}
+
 
 .product-section .btn-grp{
 width: fit-content;
@@ -161,7 +210,6 @@ margin-bottom: 16px;
 .product-section .content .check-grp p{
     font: 400 18px "inter";
     margin-bottom: 8px;
-    margin-left: 12px;
 }
 
 .product{
@@ -178,6 +226,10 @@ margin-bottom: 16px;
 /* Testmonial Section */
 
 
+.testmonial-section > p{
+    width: 60%;
+}
+
 .testmonial-section .card-custom-testmonial 
 {
 
@@ -186,6 +238,10 @@ margin-bottom: 16px;
 
 }
 
+.content-testmonial{
+    padding-right: 20px !important;
+    width: 100%;
+}
 
 .testmonial-section .content-testmonial .card-custom-testmonial img{
   margin-bottom: 16px;
@@ -218,22 +274,36 @@ margin-bottom: 16px;
 /* Footer*/
 
 .ftr-top{
+    margin-inline: 0 !important;
     padding-block: 80px;
     padding-inline: 30px;
     background: url(assets/img/Fill\ 1\ footer.png) no-repeat top right;
     background-color: var(--primary-purple);
+    margin-top: 0 !important;
     margin-bottom: 64px;
+}
+
+.ftr-top .request-text{
+    margin-top: 0;
+}
+
+.ftr-top .subscribe-form{
+    margin-top: 0;
 }
 
 .ftr-top .request-text p{
     margin-bottom: 0;
+    font-size: 18px;
+    color: var(--t-white);
 }
 
 .ftr-top .subscribe-form input{
     background-color: #4B4ACF;
     outline: none !important;
-    border: none !important;
+    border: 1px solid var(--t-white) !important;
     color: var(--t-white);
+    width: 70%;
+    border-radius: 2px;
 }
 
 .ftr-top .subscribe-form input::placeholder{
@@ -246,6 +316,13 @@ margin-bottom: 16px;
     outline: none !important;
     border: none !important;
     margin-left: 10px;
+    width: 30%;
+  
+}
+
+.ftr-top .subscribe-form button:hover{
+background: var(--green-bg);
+color: var(--green-primary);
 }
 
 .ftr-bottom .content img{
@@ -254,7 +331,9 @@ margin-bottom: 14px;
 
 .ftr-bottom .content p{
 margin-bottom: 0;
+line-height: 24px !important;
 font: 400 16px "inter";
+width: 75%;
 }
 
 .ftr-bottom .links-wrapper ul{
@@ -262,11 +341,15 @@ font: 400 16px "inter";
     padding: 0;
 }
 
+.ftr-bottom .links-wrapper ul li{
+margin-bottom: 5px;
+}
+
 .ftr-bottom .links-wrapper h5{
     color:var(--t-white);
 }
 
-.ftr-bottom .links-wrapper .links{
+.ftr-bottom .links-wrapper .links a{
     text-decoration: none;
     color: var(--t-grey);
 }
@@ -292,3 +375,12 @@ font: 400 16px "inter";
     padding: 10px;
 }
 
+.ftr-bottom .links-wrapper .links a:hover{
+    color: var(--primary-purple) !important;
+}
+
+.ftr-bottom-content .social-icons i:hover{
+    color: var(--t-white) !important;
+    background-color: var(--primary-purple);
+    transition: all ease 0.3s;
+}
