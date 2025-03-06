@@ -37,11 +37,10 @@ body{
 
 .btn-s,.btn-p,.btn-p{
     font: 500 16px "inter";
-}
-
-.btn{
     border-radius: 2px !important;
 }
+
+
 
 .btn-s{
 
