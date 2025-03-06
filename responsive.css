@@ -1,5 +1,13 @@
 @media screen and (max-width:767px) {
     
+
+    .navbar-nav
+    {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+
+
   
     .main-wrapper{
         margin-top: 50px;
@@ -97,6 +105,20 @@
         row-gap: 20px;
         flex-wrap: wrap-reverse !important;
         margin-bottom: 20px !important;
+    }
+
+}
+
+@media screen and (max-width:580px){
+    
+    .hero-section > h1
+    {
+        font-size: 28px;
+    }
+
+    .hero-section > p
+    {
+        font-size: 18px;
     }
 
 }
