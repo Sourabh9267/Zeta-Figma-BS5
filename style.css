@@ -154,12 +154,12 @@ Navbar
 }
 
 .features-section .custom-card h3{
-    font: 24px 700 "inter";
+    font:  700 24px "inter";
     margin-bottom: 16px;
 }
 
 .features-section .custom-card p{
-    font: 18px 400 "inter";
+    font:  400 18px "inter";
 }
 
 .features-section .gallery{
