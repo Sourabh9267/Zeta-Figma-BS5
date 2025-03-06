@@ -96,7 +96,7 @@
         width: 100% !important;
     }
     .ftr-top .subscribe-form button{
-        width: 100% !important;
+      width: fit-content;
         margin: 0 !important;
     }
 
