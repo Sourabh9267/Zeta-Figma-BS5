@@ -15,6 +15,7 @@
 }
 
 body{
+    color:var(--t-white);
     background-color: var(--main-bg) !important;
 }
 
