@@ -493,6 +493,7 @@ color: var(--form-label);
 
 .sign-up-form-class .form-check-label a{
     color: var(--form-label);
+    font: 400 16px "inter";
 }
 
 .sign-up-form-class .login-page-linker h6{
@@ -512,5 +513,5 @@ color: var(--form-label);
 .form-check > a{
 color: var(--primary-purple);
 text-decoration: none;
-font: 400 16px "inter";
+font: 400 14px "inter";
 }
