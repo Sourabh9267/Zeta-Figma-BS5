@@ -60,7 +60,7 @@ body{
 
 
 .btn-s{
-
+    border: 2px solid transparent;
     color: var(--t-white);
     background-color: var(--grey);
 }
@@ -68,6 +68,7 @@ body{
 .btn-p{
     color: var(--t-white);
     background-color: var(--primary-purple);
+    border: 2px solid transparent;
 }
 
 .btn-r{
@@ -76,20 +77,22 @@ body{
 }
 
 .btn-r:hover{
-    color: var(--t-white);
-    background-color: var(--btn-red-hover);
+    color: var(--btn-red);
+    background-color: var(--t-white);
 }
 
 .btn-t{
     color: var(--t-grey);
 }
 .btn-p:hover{
-    color: inherit;
-    background-color: var(--primary-purple-hover);
+    color: var(--primary-purple);
+    background-color: transparent;
+    border: 2px solid var(--primary-purple);
 }
 
 .btn-s:hover{
-    background-color: var(--t-grey);
+    border: 2px solid var(--grey);
+    background-color: transparent;
     color: inherit;
 }
 
@@ -478,4 +481,14 @@ color: var(--form-label);
    font: 400 16px "inter";
    text-decoration: none;
    color: var(--primary-purple);
+}
+
+
+
+/************ Login Form ***************/
+
+.form-check > a{
+color: var(--primary-purple);
+text-decoration: none;
+font: 400 16px "inter";
 }
