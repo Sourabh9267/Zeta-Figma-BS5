@@ -451,6 +451,7 @@ color: var(--form-label);
 }
 
 .sign-up-form-class input{
+    color: var(--t-white);
     background-color: transparent !important;
     border: 1px solid var(--form-input-border);
   padding: 10px;
