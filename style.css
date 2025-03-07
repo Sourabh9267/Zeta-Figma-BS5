@@ -418,6 +418,28 @@ margin-bottom: 5px;
 }
 
 
+/*Changes in Card Testmonial*/
+
+.testmonial-section .content-testmonial .card-custom-testmonial .profile-img-wrapper{
+    position: relative;
+    width: fit-content;
+
+    
+}
+
+.testmonial-section .content-testmonial .card-custom-testmonial .profile-img-wrapper::after{
+content:"";
+position: absolute;
+top: 0;
+right: -20px;
+background: url(assets/img/profile/design.png) no-repeat;
+height: 20px;
+width: 30px;
+
+
+}
+
+
 
 /**********   SIGN UP FORM    *************/
 
