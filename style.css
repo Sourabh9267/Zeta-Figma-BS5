@@ -217,7 +217,7 @@ width: fit-content;
 margin-bottom: 16px;
 
 }
-.product-section .btn-grp button{
+.product-section .btn-grp span{
     background-color: var(--green-bg);
     color: var(--green-primary);
     width: fit-content;
